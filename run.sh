@@ -6,7 +6,7 @@ cargo run -p disk-builder
 qemu-system-x86_64 \
   -drive format=raw,file=./disk-builder/bios_disk.img \
   -serial stdio \
-  -m 512M \
+  -m 2048M \
   -boot c \
   -no-reboot \
   -no-shutdown
