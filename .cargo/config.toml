@@ -1,2 +1,6 @@
 [unstable]
 bindeps = true
+json-target-spec = true
+
+[build]
+target = "x86_64-duxa_os.json"
